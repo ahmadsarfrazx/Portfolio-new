@@ -630,7 +630,10 @@ h6 {
     background-color: #fff; 
   }
   
-
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #fff;
+  }
 
   .nav {
     margin: 16px 0;
