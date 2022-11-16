@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-*
-{
+** {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -98,8 +97,8 @@ p {
 
 .header-mobile {
   height: 718px;
-  left: 0; 
-  top: 0; 
+  left: 0;
+  top: 0;
   background: #fff;
 }
 
@@ -111,7 +110,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 70px;
+  min-height: 30px;
   padding: 0 24px;
 }
 
@@ -123,8 +122,8 @@ header {
   text-decoration: none;
 }
 
-.nav { 
-  transition: 0.7s ease; 
+.nav {
+  transition: 0.7s ease;
   z-index: 10;
 }
 
@@ -137,7 +136,7 @@ header {
   line-height: 44px;
 }
 
- .menu1 {
+.menu1 {
   height: 48px;
 }
 
@@ -145,16 +144,14 @@ header {
   display: flex;
   width: 96px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
   text-decoration: none;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-} 
+}
 
 .navigation .logo {
   height: 20px;
@@ -183,7 +180,7 @@ header {
 }
 
 .main-part-title h1 {
-  padding: 0 24px 12px 24px;
+  padding: 50px 24px 12px 24px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -615,21 +612,21 @@ h6 {
   display: flex;
   flex-direction: row;
 }
+
 @media only screen and (max-width: 768px) {
-
-.hamburger {
-  display: block  
-}
-
-.hamburger.active .bar:nth-child(2) {
-   opacity: 0; 
+  .hamburger {
+    display: block;
   }
 
-.hamburger.active .bar:nth-child(1) {
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
-    background-color: #fff; 
+    background-color: #fff;
   }
-  
+
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: #fff;
@@ -638,7 +635,7 @@ h6 {
   .nav {
     margin: 16px 0;
   }
-  
+
   .navigation-two {
     display: flex;
     display: none;
@@ -652,9 +649,9 @@ h6 {
     left: 0;
     padding-left: 30px;
     line-height: 44px;
-  
   }
-  .navigation-two.active{
+
+  .navigation-two.active {
     display: block;
     left: 0;
     background: #6070ff;
@@ -662,6 +659,7 @@ h6 {
     text-decoration: white;
   }
 }
+
 @media only screen and (min-width: 900px) {
   .Container-1 {
     position: absolute;
@@ -689,6 +687,7 @@ h6 {
     background: #fff;
     border-radius: 16px;
     margin-top: 30px;
+    height: 496px;
   }
 
   .header-mobile {
@@ -715,11 +714,6 @@ h6 {
   .main-part-title h1 {
     font-size: 48px;
     line-height: 60px;
-  }
-
-  .Card-jobs {
-    flex-direction: row;
-    height: 496px;
   }
 
   .Card-jobs:nth-child(even) {
