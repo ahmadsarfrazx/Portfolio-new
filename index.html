@@ -1,265 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="stylesheet" href="query.css">
-  <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/4e96f49cc5.js" crossorigin="anonymous"></script>
+  <title>Portfolio - Ahmad Sarfraz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <main class="container">
-  
-    <header class="header" id="fixed">
-      <nav>
-        <a href="#" target="_parent" class="logo">Portfolio</a>
-        <img src="./assets/Union.png" class="mobile_menu_icon"/>
-      </nav>
-      <div class="desktop-nav">
-        <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li> 
-        </ul>
+  <header>
+    <nav class="navigation-bar">
+      <a href="#">
+        <h1 class="text-logo">Portfolio</h1>
+      </a>
+      <ul class="nav-card">
+        <li class="navigation-item">
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+        </li>
+        <li class="navigation-item"><a href="#about-myself" class="nav-link">About</a></li>
+        <li class="navigation-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-    </header>
+    </nav>
+  </header>
 
-    <section>
-      <div class="hero">
-        <h1 class="author">I'm Wajahat Ali <br>Glad to see you!</h1>
-        <p class="bio">I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
-           don't hestiate to contact me.</p>        
-           <a href="#" class="connect_button">let's connect</a>
-
-        <div class="social">
-        <ol>
-          <li><a href="https://twitter.com/WajahatAli09"><img src="./assets/Vector.svg" alt="twitter"></a></li>
-          <li><a href="https://www.linkedin.com/in/wajahat-ali-797768136/"><img src="./assets/Linkedin icon.svg" alt="Linkedin"></a></li>
-          <li><a href="#"><img src="./assets/Vector-2.svg" alt="m-icon"></a></li>
-          <li><a href="https://www.github.com/wajahatalli/"><img src="./assets/Vector-1.svg" alt="github"></a></li>
-          <li><a href="#"><img src="./assets/Vector-3.svg" alt="victory"></a></li>
-        </ol>
-        </div>
-      </div>      
-    </section>  
-    
-    <section class="work">
-     
-    <div class="desktop-card">
-      <div class="desktop-preview">
-        <img src="./assets/desktop/Snapshoot Portfolio.png" alt="Project 1" />
+  <section class="webpage" id="portfolio">
+    <div class="headtitle-name headtitle">
+      <div class="primary">
+        <h1 class="p-t">I'm Ahmad Sarfraz<br />Glad to see you!</h1>
       </div>
-      <div class="desktop-details">
-        <h2 class="desktop-title">Tonic</h2>
-        <ul class="desktop-info">
-          <p class="info_item">CANOPY</p>
-          <li class="desktop-info_item">Back End Dev</li>
-          <li class="desktop-info_item">2015</li>
-        </ul>
-        <p class="desktop-details_content">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ol class="catagories">
-          <li>Html</li>
-          <li>Ruby On Rails</li>
-          <li>Css</li>
-          <li>Javascript</li>
-        </ol>
-        <button type="button" class="desktop-default_button">See More</button>
-      </div>
-    </div>
-      
-        <div class="card" id="order-1">
-          <div class="preview">
-            <img src="./assets/snapshoot-portfolio1.png" alt="Project 1" />
-          </div>
-          <div class="details">
-            <h2 class="title">Tonic</h2>
-            <ul class="info">
-              <p class="info_item">CCANOPY</p>
-              <li class="info_item">Back End Dev</li>
-              <li class="info_item">2015</li>
-            </ul>
-            <p class="details_content">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ol class="catagories">
-              <li>Html</li>
-              <li class="special">Ruby On Rails</li>
-              <li>Css</li>
-              <li>Javascript</li>
-            </ol>
-            <button type="button" class="default_button">See More</button>
-          </div>
-        </div>
-
-      <div class="card" id="order-2">
-        <div class="preview">
-          <img src="./assets/snapshoot-portfolio2.png" alt="Project 2" />
-        </div>
-        <div class="details">
-          <h2 class="title">Multi-Post Stories</h2>
-          <ul class="info">
-            <p class="info_item">CANOPY</p>
-            <li class="info_item">Back End Dev</li>
-            <li class="info_item">2015</li>
-          </ul>
-          <p class="details_content">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ol class="catagories">
-            <li>Html</li>
-            <li class="special">Ruby On Rails</li>
-            <li>Css</li>
-            <li>Javascript</li>
-          </ol>
-          <button type="button" class="default_button">See More</button>
-        </div>
-      </div>
-
-      <div class="card" id="order-3">
-        <div class="preview">
-          <img src="./assets/snapshoot-portfolio3.png" alt="Project 3" />
-        </div>
-        <div class="details">
-          <h2 class="title">Tonic</h2>
-          <ul class="info">
-            <p class="info_item">CANOPY</p>
-            <li class="info_item">Back End Dev</li>
-            <li class="info_item">2015</li>
-          </ul>
-          <p class="details_content">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ol class="catagories">
-            <li>Html</li>
-            <li>Css</li>
-            <li>Javascript</li>
-          </ol>
-          <button type="button" class="default_button">See More</button>
-        </div>
-      </div>
-
-      <div class="card" id="order-4">
-        <div class="preview">
-          <img src="./assets/snapshoot-portfolio4.png" alt="Project 4" />
-        </div>
-        <div class="details">
-          <h2 class="title">Multi-Post Stories</h2>
-          <ul class="info">
-            <p class="info_item">CANOPY</p>
-            <li class="info_item">Back End Dev</li>
-            <li class="info_item">2015</li>
-          </ul>
-          <p class="details_content">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ol class="catagories">
-            <li>Html</li>
-            <li class="special">Ruby On Rails</li>
-            <li>Css</li>
-            <li>Javascript</li>
-          </ol>
-          <button type="button" class="default_button">See More</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="about">
-      <div class="about-left-section">
-      <h2 class="headline_title">About Myself</h2>
-      <p class="about_details">
-        Hello I’m a software developer! I can help you build a product ,
-        feature or website Look through some of my work and experience! If you
-        like what you see and have a project you need coded, don’t hestiate to
-        contact me.
+      <p class="para-1">
+        I'm a software developer! I can help you build a product , feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don't hestiate to contact
+        me.
       </p>
-      <a href="#" class="connect_button">let's connect</a>
+      <h3 class="pre-connect">LET'S CONNECT</h3>
 
-        <div class="social">
-          <ol>
-            <li><a href="https://twitter.com/WajahatAli09"><img src="./assets/Vector.svg" alt="twitter"></a></li>
-            <li><a href="https://www.linkedin.com/in/wajahat-ali-797768136/"><img src="./assets/Linkedin icon.svg" alt="Linkedin"></a></li>
-            <li><a href="#"><img src="./assets/Vector-2.svg" alt="m-icon"></a></li>
-            <li><a href="https://www.github.com/wajahatalli/"><img src="./assets/Vector-1.svg" alt="github"></a></li>
-            <li><a href="#"><img src="./assets/Vector-3.svg" alt="victory"></a></li>
-          </ol>
+      <ul class="social-link">
+        <li class="social-url">
+          <img src="media/vctr.png" alt="" />
+        </li>
+        <li class="social-url">
+          <img src="media/linkedin.png" alt="" />
+        </li>
+
+        <li class="social-url">
+          <img src="media/med.png" alt="" />
+        </li>
+        <li class="social-url">
+          <img src="media/github-1.png" alt="" />
+        </li>
+        <li class="social-url">
+          <img src="media/angel-list.png" alt="" />
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div id="cards" class="container"></div>
+  <section class="modal-container">
+    <div class="modal">
+      <h3 class="tonic" id="modal-title">Tonic</h3>
+      <span onclick="onModalClose()" class="btn-x" draggable="true">&times;</span>
+      <h4>
+        CANOPY <span class="dot tag"> Back End dev </span>
+        <span class="dot tag">2015</span>
+      </h4>
+      <div class="cont-11">
+        <div class="image-contain fix">
+          <img src="media/work-img-4.png" alt="" class="pic-temp1" id="modal-img" />
         </div>
-      <div class="action">
-        <button type="button" class="default_button">Get my resume</button>
+        <div class="stacks-mode">
+          <p class="preinfo-project" id="modal-desc">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. A daily selection of privately personalized
+            reads; no accounts or sign-ups required. A daily selection of
+            privately personalized reads; no accounts or sign-ups required.
+          </p>
+          <div>
+            <ul id="group-list" class="stack-icon"></ul>
+            <div class="stack-icon">
+              <a class="btn-model" id="modal-seelive">See live<span><img src="media/export.png"
+                    alt="export" /></span></a>
+              <a class="btn-model" id="modal-seesource">See Source<span><img src="media/github.png"
+                    alt="github" /></span></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="about-right-section-">
-      <ol class="about_ul">
-        <h3 class="about_sub_title">
-          Languages
-          <img
-            class="down_arrow_icon"id="icons"
-            src="./assets/down-arrow-icon.png"
-            alt="down"
-          />
-        </h3>
-        <li class="ul_item">
-          <img src="./assets/js-icon.png" alt="Javascript" /><span
-            >Javascript</span
-          >
+  </section>
+
+  <section id="about-myself" class="about-mine">
+    <div class="content-2">
+      <h1 class="header-main">About <br />
+        Myself</h1>
+      <p class="contact-me conatctp">
+        I’m a software developer! I can help you build a product , feature or
+        website. Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact
+        me.
+      </p>
+      <h3 class="pre-connect">LET'S CONNECT</h3>
+
+      <ul class="social-link">
+        <li>
+          <a href="">
+            <i class="social-url"><img src="media/icon-twi.svg" alt="" /></i>
+          </a>
         </li>
-        <li class="ul_item">
-          <img src="./assets/html-icon.png" alt="HTML" /><span>HTML</span>
+        <li>
+          <a href="">
+            <i class="social-url"><img src="media/icon-01.svg" alt="" /></i>
+          </a>
         </li>
-        <li class="ul_item">
-          <img src="./assets/css-icon.png" alt="CSS" /><span>CSS</span>
+        <li>
+          <a href="#">
+            <i class="social-url"><img src="media/icon-02.svg" alt="" /></i>
+          </a>
         </li>
-      </ol>
-      <ol class="about_ul">
-        <h3 class="about_sub_title">
-          Frameworks
-          <img
-            class="arrow_icon"id="icons"
-            src="./assets/right-arrow-icon.png"
-            alt="down"
-          />
-        </h3>
-      </ol>
-      <ol class="about_ul">
-        <h3 class="about_sub_title">
-          Skills
-          <img
-            class="arrow_icon"id="icons"
-            src="./assets/right-arrow-icon.png"
-            alt="down"
-          />
-        </h3>
-      </ol>
+        <li>
+          <a href="#">
+            <i class="social-url"><img src="media/icon-03.svg" alt="" /></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="social-url"><img src="media/icon-04.svg" alt="" /></i>
+          </a>
+        </li>
+      </ul>
+      <button type="button" class="cursor-btn">Get my resume</button>
     </div>
-    </section>    
-    <footer class="background-style">
-      <section class="contact-form" id="contact">
-        <h2 class="contact-title">Contact me</h2>
-        <p class="p-contact">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-        <form class="contact-info" action="https://formspree.io/f/xlevonka" method="POST" id="form">
-          <label for="name"></label>
-          <input type="text" name="Name" class="inp-form" maxlength="30" required placeholder="Name" id="name" />
-          <label for="email"></label>
-          <input type="email" name="_replyTo" class="inp-form" id="email" placeholder="Email" required />
-          <label for="message"></label>
-          <textarea name="message" class="text-area" cols="30" rows="10" maxlength="500"
-            placeholder="Write your message here" required id="message"></textarea>
-          <small id="message-success" class="hidden">From Submitted</small>
-          <input type="submit" class="btncontact" value="Get It Touch" />
-        </form>
-      </section>
-    </footer> 
-  </main> 
+
+
+    <div class="sound">
+      <ul class="p-identity">
+        <li>
+          <ul>
+            <li class="view-2 list-item">
+              <h3 class="lang">Languages</h3>
+              <img src="media/down-arrow.png" class="pic-elp skills-toggle" alt="" />
+            </li>
+          </ul>
+          <ul class="f-lang">
+            <li class="for-style">
+              <img src="media/Ellipse-1.png" class="pic-elp skills-toggle" alt="" />
+              <span class="name">JavaScript</span>
+            </li>
+            <li class="for-style">
+              <img src="media/Ellipse-2.png" class="pic-elp skills-toggle" alt="" />
+              <span class="name">HTML</span>
+            </li>
+            <li class="for-style">
+              <img src="media/Ellipse-3.png" class="pic-elp skills-toggle" alt="" />
+              <span class="name">CSS</span>
+            </li>
+          </ul>
+        </li>
+        <li class="frames">
+          <p class="f-works">Frameworks</p>
+          <img src="media/union.png" alt="" class="pic-stand " />
+        </li>
+        <li>
+          <img class="divide-bar" src="media/Seprator-b.png" alt="" />
+        </li>
+        <li class="stand">
+          <p class="f-works">Skills</p>
+          <img src="media/union.png" alt="Skills page" class="pic-stand " />
+        </li>
+        <li>
+          <img class="divide-bar" src="media/Seprator-b.png" alt="" />
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <footer class="back-style">
+    <section class="contact-form" id="contact">
+      <h2 class="contactus">Contact me</h2>
+      <p class="det-contact">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form class="contact-sec" action="" method="POST" id="form">
+        <label for="name">Name</label>
+        <input type="text" name="Name" class="in-form" maxlength="30" required placeholder="Name" id="name" />
+        <label for="email"> Email</label>
+        <input type="email" name="_replyTo" class="in-form" id="email" placeholder="Email" required />
+        <label for="message">Write your message here</label>
+        <textarea name="message" class="text-area" cols="30" rows="10" maxlength="500"
+          placeholder="Write your message here" required id="message"></textarea>
+        <small id="message-error" class="hide">Failed to send.Your email should be in lowercase e.g
+          3ahmadifi@gmail.com
+        </small>
+        <small id="message-success" class="hide">From Submitted</small>
+        <input type="submit" class="touch-btn" value="Get It Touch" />
+      </form>
+    </section>
+  </footer>
 </body>
+
 </html>
